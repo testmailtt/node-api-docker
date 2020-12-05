@@ -13,14 +13,14 @@ To build your own API you'll need to create a node app, build the api with expre
 > npm init
 ```
 
-3. Install express.js (paying special attention to the port environment variable) and build your api using a public port like 8080, e.g. like the index.js file in the src folder in this repo.
+3. Install express.js and build your api using a public port like 8080 e.g. like the index.js file in the src folder in this repo.
 4. Test your api by running the **node** command making sure you get the desired response:
 
 ```console
 > node ./src/index.js
 ```
 
-5. Create your docker file with the following set of instructions. Instructions are like steps/layers which make it possible for Docker to cahce some of the steps if nothing has changed. Thats why the step to install the node_modules comes early on so that Docker doesn't have to reinstall them everytime something changes in your app's source code :)
+5. Create your docker file with the following set of instructions. Instructions are like steps/layers which make it possible for Docker to cahce some of the steps if nothing has changed. Thats why the step to install the node_modules comes early on so that Docker doesn't have to reinstall them everytime something changes in your app's source ⏱️
 
 ```docker
 FROM node:12
