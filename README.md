@@ -40,7 +40,7 @@ EXPOSE 8080
 CMD [ "npm", "start" ]
 ```
 
-6. Make sure you have a script in your package.json that handle the last step **npm start**. See the package.json file "scripts" section in the repo.
+6. Make sure you have a script in your package.json that handles the last step **npm start**. See the package.json file "scripts" section in the repo.
 7. Run the Docker build command like below:
 
 ```console
