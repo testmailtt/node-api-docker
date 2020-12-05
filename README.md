@@ -20,7 +20,7 @@ To build your own API you'll need to create a node app, build the api with expre
 > node ./src/index.js
 ```
 
-5. Create your docker file with the following set of instructions. Instructions are like steps/layers which make it possible for Docker to cahce some of the steps if nothing has changed. Thats why the step to install the node_modules comes early on so that Docker doesn't have to reinstall them everytime something changes in your app's source ⏱️
+5. Create your docker file with the following set of instructions. Instructions are like steps/layers which make it possible for Docker to cahce some of the steps if nothing has changed. Thats why the step to install the node_modules comes early on so that Docker doesn't have to reinstall them everytime something changes in your app's source code ⏱️
 
 ```docker
 FROM node:12
