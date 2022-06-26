@@ -1,0 +1,3 @@
+deploy:
+  - okteto build -t hello-world .
+  - kubectl apply -f k8s
